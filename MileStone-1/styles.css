@@ -1,0 +1,75 @@
+* {
+    font-family: "Century Gothic", "Helvetica Neue", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(126, 187, 207);
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(0, 0, 142);
+    color: honeydew;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.skills {
+    display: block;
+    margin-right: 130px; 
+}
+
+button {
+    background-color: rgb(0, 113, 23);
+    color: rgb(255, 255, 255);
+    border: 30px;
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -4px;
+    box-shadow: 0 0 10px rgba(30, 255, 0, 0.6);
+}
+
+button:hover {
+    background-color: rgb(0, 98, 16);
+    box-shadow: 0 0 10px rgba(30, 255, 0, 0.8);
+}
+
+img {
+    float: right;
+    margin-right: 2%;
+    margin-top: -2%;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+}
