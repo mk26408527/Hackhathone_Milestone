@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="favicon.ico.png">
+    <title>Resume</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Shareable Resume by M. Huzaifa</h1><br><br>
+        <header>
+            <h1>Personal Information</h1>
+        </header><br>
+        <section>
+            <form id="resume-form">
+                <label for="username">Username</label><br><br>
+                <input type="text" name="username" id="username" placeholder="Enter your Username" required><br><br>
+                <label for="name">Name</label><br><br>
+                <input type="text" name="name" id="name" placeholder="Name" required><br><br>
+                <label for="email">Email</label><br><br>
+                <input type="email" name="email" id="email" placeholder="123@example.com" required><br><br>
+                <label for="phone">Phone</label><br><br>
+                <input type="tel" name="phone" id="phone" placeholder="123-456-7890" required><br><br>
+                <hr>
+        </section>
+        <section>
+            <h1>Qualifications & Experience</h1><br><br>
+            <label for="education">Education</label><br><br>
+            <textarea name="education" id="education" placeholder="Education" cols="32" rows="3" required></textarea><br><br>
+            <label for="experience">Experience</label><br><br>
+            <textarea name="experience" id="experience" placeholder="Experience" cols="32" rows="3" required></textarea><br><br>
+            <label for="skills">Skills</label><br><br>
+            <textarea name="skills" id="skills" placeholder="Skills" cols="32" rows="3" required></textarea><br><br>
+            <button type="submit"><b>Generate</b></button>
+        </form>
+        <br>
+        <div id="resume-display"></div>
+        </section>
+    </div>
+    <div id="shareable-link-container" style="display: none;">
+        <h2>Shareable Link</h2>
+        <p>Here is your Shareable link</p>
+        <a href="#" id="shareable-link" target="_blank"></a>
+        <br><br>
+        <button id="download-pdf"><b>Download as PDF</b></button>
+    </div>
+    <footer>
+        <p>&copy; 2024 Resume Generator. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
