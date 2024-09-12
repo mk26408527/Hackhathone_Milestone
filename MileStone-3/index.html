@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="favicon.ico.png">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Personal Information</h1>
+        </header><br><br>
+        <section>
+            <form id="ResumeForm">
+                <label for="Name">Name</label><br><br>
+                <input type="text" name="Name" id="name" placeholder="Name" required><br><br>
+                <label for="Email">Email</label><br><br>
+                <input type="email" name="Mail" id="email" placeholder="123@example.com" required><br><br>
+                <label for="Phone">Phone</label><br><br>
+                <input type="tel" name="Phone" id="phone" placeholder="123-456-7890" required><br><br>
+                <hr>
+        </section>
+        <section>
+            <h1>Qualifications & Experience</h1><br><br>
+            <label for="Education">Education</label><br><br>
+            <textarea name="Education" id="education" placeholder="Education" required></textarea><br><br>
+            <label for="Experience">Experience</label><br><br>
+            <textarea name="Experience" id="experience" placeholder="Experience" required></textarea><br><br>
+            <label for="Skills">Skills</label><br><br>
+            <textarea name="Skills" id="skills" placeholder="Skills" required></textarea><br><br>
+            <button type="submit"><b>Generate</b></button>
+        </form>
+        <br>
+        <div id="resume-display"></div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Resume Generator. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
